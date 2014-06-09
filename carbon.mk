@@ -48,3 +48,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_VERSION_TAGS=release-keys \
     PRIVATE_BUILD_DESC="occam-user 4.3 JWR66V 737497 release-keys" \
     BUILD_FINGERPRINT="google/occam/mako:4.3/JWR66V/737497:user/release-keys"
+
+# bootanimation
+PRODUCT_COPY_FILES += \
+    vendor/carbon/prebuilt/common/bootanimation/720x1080.zip:system/media/bootanimation.zip
