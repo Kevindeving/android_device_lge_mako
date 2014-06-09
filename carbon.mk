@@ -35,7 +35,7 @@ $(call inherit-product, vendor/carbon/config/common_phone.mk)
 # products
 PRODUCT_DEVICE := mako
 PRODUCT_BRAND := Google
-PRODUCT_NAME := carbon_mako
+PRODUCT_NAME := trex_mako
 PRODUCT_MODEL := Nexus 4
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=carbon.mako.$(shell date +%m%d%y).$(shell date +%H%M%S)
