@@ -41,7 +41,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01600000
 
 # Try to build the kernel
 TARGET_KERNEL_CONFIG := mako_defconfig
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := LINARO/4.9.1-2014.05.20140518.CR83/bin/arm-cortex_a15-linux-gnueabihf-
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := 4.8.3-2013.11.20131205/bin/arm-linux-gnueabihf-
 
 # Use JWR66Y kernel compatibility fix
 TARGET_USE_JWR66Y := true
